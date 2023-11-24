@@ -1,0 +1,2 @@
+mmproj-model-f16.gguf
+ggml-model-q5_k.gguf
