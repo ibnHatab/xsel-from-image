@@ -50,11 +50,13 @@ Resorces to acomplish tasks above:
 
 Bugs:
 
-	It's slow and no progress is visible. When key combination binded in WM, run in in separate xterm.
+	It's slow and no progress is visible.
+	When key combination binded in WM, run in in separate xterm.
 
 	: xterm -e /bin/bash -l -c xsel-to-image.sh
 
 $ tree .
+---
   .
   ├── -
   ├── bin
@@ -67,3 +69,4 @@ $ tree .
   │   └── models.txt
   ├── nazare.jpeg
   └── README.md
+---

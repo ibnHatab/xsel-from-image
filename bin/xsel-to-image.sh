@@ -15,3 +15,6 @@ scrot -s  '/tmp/%F_%T_$wx$h.png' -e 'llava-cli -m models/ggml-model-q5_k.gguf --
 cat $TMPFILE | tail -12 | grep -ve 'llama_print_timing\|clip_model_load\|encode_image_with_clip' | sed '/^[[:space:]]*$/d' |xclip
 
 rm -f $TMPFILE
+echo '-----------------------------------------------------------------------------'
+xsel
+echo '-----------------------------------------------------------------------------'
