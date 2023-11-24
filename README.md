@@ -55,8 +55,8 @@ Bugs:
 
 	: xterm -e /bin/bash -l -c xsel-to-image.sh
 
-$ tree .
----
+  $ tree .
+```
   .
   ├── -
   ├── bin
@@ -69,4 +69,4 @@ $ tree .
   │   └── models.txt
   ├── nazare.jpeg
   └── README.md
----
+```
