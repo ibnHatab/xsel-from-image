@@ -1,4 +1,4 @@
-# xsel-to-image
+# xsel-from-image
 
 This repo contains abnotation tool to pass image in and get text out into clipboard as
 response to prompt givent to LLAVA - multimodal lamguage model.
